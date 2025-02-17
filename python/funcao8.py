@@ -11,7 +11,7 @@ def calculaMedia(notas):
         soma = soma + notas[i]
     return(soma/len(notas))
 
-n = int(input("Digite o número de notas: "))
+    n = int(input("Digite o número de notas: "))
 notas = leNota(n)
 print("As notas são:", notas)
 media = calculaMedia(notas)
